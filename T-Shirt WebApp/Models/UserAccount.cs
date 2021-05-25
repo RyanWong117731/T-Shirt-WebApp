@@ -7,7 +7,7 @@ namespace T_Shirt_WebApp.Models
 {
     public class UserAccount
     {
-        public int UserID { get; set; }
+        public int UserAccountID { get; set; }
         public string Username { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }

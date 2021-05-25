@@ -10,7 +10,8 @@ namespace T_Shirt_WebApp.Models
     {
         public int TransactionID { get; set; }
         public int TShirtID { get; set; }
-        public int UserID { get; set; }
+        public int UserAccountID { get; set; }
+        public DateTime TranactionDate { get; set; }
 
 
         public UserAccount UserAccounts { get; set; }

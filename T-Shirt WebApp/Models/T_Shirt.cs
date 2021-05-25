@@ -8,7 +8,7 @@ namespace T_Shirt_WebApp.Models
 {
     public class T_Shirt
     {
-        public int TShirtID { get; set; } 
+        public int T_ShirtID { get; set; } 
 
         public string Name { get; set; }
 
